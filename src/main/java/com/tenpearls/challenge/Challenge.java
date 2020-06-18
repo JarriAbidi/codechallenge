@@ -1,6 +1,7 @@
 package com.tenpearls.challenge;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class Challenge {
 

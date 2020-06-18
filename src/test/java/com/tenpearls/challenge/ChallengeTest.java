@@ -21,7 +21,7 @@ public class ChallengeTest {
 
     @Test
     public void sortOddBeforeEvenTest() {
-        TestCase[] testTable = new TestCase[] {
+        TestCase[] testTable = new TestCase[]{
                 new TestCase("Base case", new Integer[]{3, 4, 2, 1, 6, 7}, new Integer[]{3, 1, 7, 4, 2, 6}),
                 new TestCase("Empty lists", new Integer[]{}, new Integer[]{}),
                 new TestCase("Repeating numbers", new Integer[]{3, 4, 2, 2, 1, 6, 7, 7, 7}, new Integer[]{3, 1, 7, 7, 7, 4, 2, 2, 6}),
